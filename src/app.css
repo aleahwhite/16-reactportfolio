@@ -1,122 +1,53 @@
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #ffffff;
-}
-
+/*  ABOUT ME SECTION */
 .aboutme-photo img {
-    max-width: 250px;
-    max-height: 250px;
-    padding: 10px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+
 }
 
-img {
-    width: 600px;
-    
-}
 .aboutme-photo {
-margin-right: 0%;
-width: 40%;
-
+    margin: auto;
+    width: 30%;
+    height: auto;
+    float: left;
 }
 
 .aboutme-container {
-height:400px;
-   margin: 0px;
+    height: auto;
+    margin: 0px;
     display: flex;
-    flex-direction: wrap;
-}
-p {
-
+    flex: wrap;
+    flex-direction: column;
 }
 
 .aboutmeinfo-container {
-    padding: 0%;
-    margin-left: 5px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
-    margin-top: 0;
-    width: 60%;
+    margin: auto;
+    width: 100%;
     overflow: hidden;
 }
+
 .aboutme-header {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
-    text-align:left ;
-}
-
-button {
-    background-color: #f7c6f1;
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button:hover{
-    background-color: #c2c0c2;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;   
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-    margin-left: 40px;
-    margin-right: 40px;
-    width: 80%;
-    height: 50px;
-    padding: 15px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    border: 5px solid #f7c6f1;
-    border-radius: 5px;
-}
-
-label {
-    margin: 7px;
-    justify-content: center;
     text-align: left;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.main-content {
-    background-color: #ffffff;
-    padding: 20px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-}
-
-@media (max-width: 768px) {
-    .container {
-        padding: 10px;
-    }
-}
-
-.skills-container .heading-container {
-    text-align: center;
-    width: 100%;
-
 }
 
 
+
+/*  SKILLS */
 .skills-container {
+    max-width: 900px;
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
+    margin: auto;
 }
 
 .skills-category {
@@ -128,21 +59,50 @@ label {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     gap: 10px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .skill-item {
-    background-color: #f7c6f1;
+    color: #f6d3f2;
+    font-weight: bold;
+    background-color: #595559;
     border: 1px solid #ddd;
     text-align: center;
     padding: 5px;
     border-radius: 5px;
 }
 
-a:hover {
-    color: #f7c6f1;
+
+
+
+
+
+/*  PROJECTS */
+.project-image {
+    opacity: .5;
+    filter: grayscale(80%);
+
 }
 
+.project-description {
+    padding: 20px;
+    text-align: center;
+}
+
+.project-link {
+    padding: auto;
+    justify-content: center;
+    color:#595559;
+    margin-left: 50px;
+   background-color: #eba4e2;
+
+}
+
+
+
+
+
+/*  CONTACT ME */
 .contact-links {
 
     height: 30px;
@@ -150,8 +110,7 @@ a:hover {
     padding: 5px;
     display: flex;
     justify-content: center;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin: auto;
 }
 
 .contact-links a {
@@ -161,3 +120,66 @@ a:hover {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+input[type="text"],
+input[type="email"],
+textarea {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    height: 150px;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: 5px solid #eba4e2;
+    border-radius: 5px;
+}
+
+label {
+    margin: 7px;
+    justify-content: center;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+/* UNIVERSAL */
+img {
+    width: 60%;
+
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    background-color: #f6d3f2;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c2c0c2;
+}
+
+.heading-container {
+    text-align: center;
+    width: 100%;
+
+}
+
+a:hover {
+    color: #f6d3f2;
+}
+

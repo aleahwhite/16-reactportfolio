@@ -1,32 +1,28 @@
+/* MAIN */
 body {
     margin: 0px;
     padding: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #c2c0c2;
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    background-color: #f6d3f2;
     color: #595559;
 }
 
 h1 {
-    margin-left: 15px;
+    margin-left: 59px;
+    background-color: #f6d3f2;
 }
-h2,
-h3 {
-    text-align: center;
 
+h2, h3 {
+    text-align: center;
 }
 
 header {
-    background-color: #f7c6f1;
+    background-color: #f6d3f2;
+    margin: auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     color: #595559;
-
 }
 
 a {
@@ -36,22 +32,41 @@ a {
 }
 
 a:hover {
-    color: #f7c6f1;
+    color: #f6d3f2;
 }
 
+section {
+    background-color: #e2dce2;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px; /* check and see what margin:auto would do */
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 30px solid #595559;
+}
+
+.social-links a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+/* NAVBAR */
 nav {
     width: 100%;
     height: 40px;
-    background-color:#f7c6f1;
+    background-color: #f6d3f2;
 }
 
 .navbar ul {
     height: 40px;
     list-style: none;
-    padding: 0;
+    padding: auto;
     display: flex;
-    justify-content: center;
-    background-color: #f7c6f1;
+    margin: auto;
+    background-color: #f6d3f2;
 }
 
 .navbar li {
@@ -71,24 +86,13 @@ nav {
     color: #c2c0c2;
 }
 
-section {
-    background-color: #c2c0c2;
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border: 1px solid #ddd;
-}
 
+
+
+/* footer */
 footer {
-    background-color: #f7c6f1;
+    background-color: #f6d3f2;
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
-}
-
-.social-links a {
-    margin-left: 10px;
-    margin-right: 10px;
 }
